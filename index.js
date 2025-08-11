@@ -4,12 +4,12 @@ const port = process.env.PORT || 5000;
 
 const users = [
     {id:1, name:'Shobuj', email:'sobuj@email.com'},
-    {id:1, name:'Sohun', email:'sohun@email.com'},
-    {id:1, name:'Jesan', email:'jesan@email.com'},
+    {id:2, name:'Sohun', email:'sohun@email.com'},
+    {id:3, name:'Jesan', email:'jesan@email.com'},
 ]
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello jan!',users)
 })
 
 app.get('/users', (req, res) => {
