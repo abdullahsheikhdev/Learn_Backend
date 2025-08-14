@@ -7,7 +7,7 @@ const users = [
 ]
 
 app.get('/', (req, res) => {
-  res.send('Hello janu!')
+  res.send('Hello jjanu!')
 })
 
 app.get('/users', (req, res) => {
