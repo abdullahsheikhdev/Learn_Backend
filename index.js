@@ -25,7 +25,6 @@ app.get('/users', (req, res) => {
 
 app.post('/users', (req, res) => {
   console.log('hello');
-  
   const newuser = req.body;
   newuser.id = users.length + 1;
   users.push(newuser);
