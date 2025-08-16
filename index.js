@@ -41,8 +41,7 @@ async function run() {
       console.log("hello");
       const quary = {_id: new ObjectId(id)}
       const result = await usercollection.deleteOne(quary)
-      res.send(result)
-      
+      res.send(result);
     })
 
 
