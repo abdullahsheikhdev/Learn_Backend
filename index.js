@@ -7,6 +7,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 //ok
+//plese
 
 const uri =
   "mongodb+srv://indgm07:dADpnxaMugeDWPDF@learn.je1vlcp.mongodb.net/?retryWrites=true&w=majority&appName=learn";
